@@ -42,9 +42,11 @@
 					</li>
 				</ul>
 
-				<a href="#" class="btn btn-sm btn-primary ms-3 d-block me-sm-3">
+				<button class="btn btn-primary btn-login ms-3 d-block me-sm-3"
+					data-bs-toggle="modal"
+					data-bs-target="#loginModal">
 					Login
-				</a>
+				</button>
 			</div>
 		</div>
 	</nav>
@@ -255,6 +257,63 @@
 	<div class="container-fluid tagar">
 		<div class="container">
 			<h2>#ENERGIUNTUKNEGERI <br> #SOSOITO</h2>
+		</div>
+	</div>
+
+	<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-body p-4">
+					<ul class="nav nav-tabs" id="myTab" role="tablist">
+						<li class="nav-item" role="presentation">
+							<button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#masuk" type="button" role="tab" aria-controls="masuk" aria-selected="true">Masuk</button>
+						</li>
+						<li class="nav-item" role="presentation">
+							<button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#daftar" type="button" role="tab" aria-controls="daftar" aria-selected="false">Daftar</button>
+						</li>
+					</ul>
+
+					<div class="tab-content" id="myTabContent">
+						<div class="tab-pane fade show active" id="masuk" role="tabpanel" aria-labelledby="masuk-tab">
+						
+							<form action="" method="post" class="mb-3">
+								<div class="mb-3 mt-3">
+									<label for="exampleFormControlInput1" class="form-label">Email address</label>
+									<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+								</div>
+								<div class="mb-3">
+									<label for="exampleFormControlInput1" class="form-label">Password</label>
+									<input type="password" class="form-control" id="exampleFormControlInput1">
+								</div>
+								
+								<button type="submit" class="btn btn-primary btn-login">Masuk</button>
+								<button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Batal</button>
+							</form>
+
+							<a href="#">Lupa sandi?</a>
+						</div>
+						<div class="tab-pane fade" id="daftar" role="tabpanel" aria-labelledby="daftar-tab">
+							<form action="" method="post" class="mb-3">
+								<div class="mb-3 mt-3">
+									<label for="exampleFormControlInput1" class="form-label">Nama Lengkap</label>
+									<input type="text" class="form-control" id="exampleFormControlInput1">
+								</div>
+								<div class="mb-3 mt-3">
+									<label for="exampleFormControlInput1" class="form-label">Email</label>
+									<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+								</div>
+								<div class="mb-3">
+									<label for="exampleFormControlInput1" class="form-label">Password</label>
+									<input type="password" class="form-control" id="exampleFormControlInput1">
+								</div>
+								
+								<button type="submit" class="btn btn-primary btn-login">Daftar</button>
+								<button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Batal</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 

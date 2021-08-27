@@ -6,6 +6,10 @@ body {
   background-color: #F6F8FD;
 }
 
+.btn-login {
+  background-color: #0A4678 !important;
+}
+
 .navbar {
   position: fixed;
   width: 100%;
