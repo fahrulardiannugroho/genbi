@@ -27,12 +27,12 @@ body {
 
 	.nav-brand {
 		font-size: 18pt;
-		font-weight: 600;
+		font-weight: 500;
 		color: $color-white;
 	}
 
 	.nav-brand.active {
-		color: $color-blue;
+		color: $color-blue-secondary;
 	}
 
 	ul {
@@ -41,19 +41,21 @@ body {
 	
 			.top-nav {
 				font-size: 12pt;
-				font-weight: 500;
+				font-weight: normal;
 				color: $color-white !important;
 	
 				&:hover {
-					color: $color-blue !important;
+					opacity: 50%;
 				}
 			}
 
 			.top-nav.active {
 				color: $color-blue-secondary !important;
+				font-weight: normal;
 
 				&:hover {
 					color: $color-blue !important;
+					opacity: 50%;
 				}
 			}
 		}

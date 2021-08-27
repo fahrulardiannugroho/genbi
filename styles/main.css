@@ -20,12 +20,12 @@ body {
 
 .navbar .nav-brand {
   font-size: 18pt;
-  font-weight: 600;
+  font-weight: 500;
   color: #F6F8FD;
 }
 
 .navbar .nav-brand.active {
-  color: #0A4678;
+  color: #4a84b4;
 }
 
 .navbar ul li {
@@ -34,20 +34,22 @@ body {
 
 .navbar ul li .top-nav {
   font-size: 12pt;
-  font-weight: 500;
+  font-weight: normal;
   color: #F6F8FD !important;
 }
 
 .navbar ul li .top-nav:hover {
-  color: #0A4678 !important;
+  opacity: 50%;
 }
 
 .navbar ul li .top-nav.active {
   color: #4a84b4 !important;
+  font-weight: normal;
 }
 
 .navbar ul li .top-nav.active:hover {
   color: #0A4678 !important;
+  opacity: 50%;
 }
 
 .navbar.active {
