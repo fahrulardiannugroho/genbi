@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GenBI SULTRA</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="libraries/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="/libraries/owlcarousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="/libraries/owlcarousel/owl.theme.default.css">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+	<!-- navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-white py-2">
+		<div class="container">
+			<a class="navbar-brand nav-logo" href="#"><img src="/images/genbi-sultra.png" width="45" alt=""></a>
+			<a class="navbar-brand nav-brand" href="#">GenBI Sultra</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link top-nav" aria-current="page" href="/index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link top-nav" aria-current="page" href="/">Struktur Organisasi</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link top-nav" aria-current="page" href="#">Beasiswa BI</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link top-nav" aria-current="page" href="#">Postingan</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link top-nav" aria-current="page" href="#">Kegiatan</a>
+					</li>
+				</ul>
+
+				<a href="#" class="btn btn-sm btn-primary ms-3 d-block me-sm-3">
+					Login
+				</a>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container-fluid organisasi">
+		<div class="container">
+			<div class="owl-carousel devisi-carousel owl-theme">
+				<div class="item">
+					<div class="card">
+						<div class="card-body">
+							<div class="logo-devisi">
+								<img src="/images/uho logo.png" alt="">
+							</div>
+							<h5 class="card-title text-center">UHO Kendari</h5>
+						</div>
+						<div class="row mt-auto">
+							<div class="col text-center">
+								<button class="btn btn-outline-light center-block"
+									data-bs-toggle="modal"
+									data-bs-target="#exampleModal"
+								>Detail</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="card">
+						<div class="card-body">
+							<div class="logo-devisi">
+								<img src="/images//iain-logo.png" alt="">
+							</div>
+							<h5 class="card-title text-center">IAIN Kendari</h5>
+						</div>
+						<div class="row mt-auto">
+							<div class="col text-center">
+								<button class="btn btn-outline-light center-block"
+									data-bs-toggle="modal"
+									data-bs-target="#exampleModal"
+								>Detail</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="card">
+						<div class="card-body">
+							<div class="logo-devisi">
+								<img src="/images/usn-logo.png" alt="">
+							</div>
+							<h5 class="card-title text-center">USN Kolaka</h5>
+						</div>
+						<div class="row mt-auto">
+							<div class="col text-center">
+								<button class="btn btn-outline-light center-block"
+									data-bs-toggle="modal"
+									data-bs-target="#exampleModal"
+								>Detail</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="card">
+						<div class="card-body">
+							<div class="logo-devisi">
+								<img src="/images/unidayan-logo.png" alt="">
+							</div>
+							<h5 class="card-title text-center">UNIDAYAN Bau-Bau</h5>
+						</div>
+						<div class="row mt-auto">
+							<div class="col text-center">
+								<button class="btn btn-outline-light center-block"
+									data-bs-toggle="modal"
+									data-bs-target="#exampleModal"
+								>Detail</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="card">
+						<div class="card-body">
+							<div class="logo-devisi">
+								<img src="/images/stie66-logo.png" alt="">
+							</div>
+							<h5 class="card-title text-center">STIE 66 Kendari</h5>
+						</div>
+						<div class="row mt-auto">
+							<div class="col text-center">
+								<button class="btn btn-outline-light center-block"
+									data-bs-toggle="modal"
+									data-bs-target="#exampleModal"
+								>Detail</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-xl">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Universitas {Halu Oleo}</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body p-5">
+					<div class="row">
+						<div class="col-12 col-md-4">
+								<img src="/images/dummy-foto.png" style="height: 300px;" alt="">
+								<h3>Lorem ipsum dolor</h3>
+								<p>Ketua Komisariat</p>
+						</div>
+						<div class="col-12 col-md-4">
+							<img src="/images/dummy-foto.png" style="height: 300px;" alt="">
+							<h3>Lorem ipsum dolor</h3>
+							<p>Ketua Devisi Pendidikan</p>
+						</div>
+						<div class="col-12 col-md-4">
+							<img src="/images/dummy-foto.png" style="height: 300px;" alt="">
+							<h3>Lorem ipsum dolor</h3>
+							<p>Ketua Devisi Kewirausahaan</p>
+						</div>
+						<div class="col-12 col-md-4">
+							<img src="/images/dummy-foto.png" style="height: 300px;" alt="">
+							<h3>Lorem ipsum dolor</h3>
+							<p>Ketua Devisi Lingkungan Hidup</p>
+						</div>
+						<div class="col-12 col-md-4">
+							<img src="/images/dummy-foto.png" style="height: 300px;" alt="">
+							<h3>Lorem ipsum dolor</h3>
+							<p>Ketua Devisi Kesehatan Masyarakat</p>
+						</div>
+						<div class="col-12 col-md-4">
+							<img src="/images/dummy-foto.png" style="height: 300px;" alt="">
+							<h3>Lorem ipsum dolor</h3>
+							<p>Ketua Devisi Komunikasi dan Informatika</p>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- footer -->
+	<footer>
+		<div class="container">
+			<div class="row pt-5 pb-5">
+				<div class="col-12 col-md-4">
+					<h3>Tentang Kami</h3>
+
+					<p><i class="fa fa-map-marker"></i> Jl. Perintis Kemerdekaan No.KM.10, Tamalanrea Indah, Kec. Tamalanrea, Kota Makassar, Sulawesi Selatan 90245</p>
+					<p><i class="fa fa-envelope"></i> genbi.sultra@gmail.com</p>
+					<div class="sosmed">
+						<a href="#"><i class="fa fa-instagram"></i></a>
+						<a href="#"><i class="fa fa-youtube"></i></i></a>
+						<a href="#"><i class="fa fa-spotify"></i></a>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-4">
+					<h3>Penelusuran Cepat</h3>
+
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Struktur Organisasi</a></li>
+						<li><a href="#">Beasiswa BI</a></li>
+						<li><a href="#">Post</a></li>
+						<li><a href="#">Kegiatan</a></li>
+					</ul>
+				</div>
+
+				<div class="col-12 col-md-4">
+					<h3>Hubungi Kami</h3>
+
+					<form action="" method="post">
+						<div class="input-group mb-3">
+							<input type="text" class="form-control" placeholder="Nama" aria-label="Nama">
+						</div>
+						<div class="input-group mb-3">
+							<input type="text" class="form-control me-3" placeholder="Email" aria-label="Email">
+							<input type="text" class="form-control" placeholder="Telepon" aria-label="Telepon">
+						</div>
+						<div class="input-group mb-3">
+							<textarea class="form-control" placeholder="Pesan" aria-label="With textarea"></textarea>
+						</div>
+
+						<div class="btn btn-sm btn-send">Kirim Pesan</div>
+					</form>
+				</div>
+			</div>
+
+			<hr/>
+
+			<p class="copyrigth">© 2021 GenBI SulTra. All rights reserved.</p>
+		</div>
+	</footer>
+
+	<script src="/libraries/bootstrap/js/bootstrap.js"></script>
+	<script src="/libraries/jquery/jquery-3.6.0.min.js"></script>
+	<script src="/libraries/owlcarousel/owl.carousel.min.js"></script>
+	<script src="/scripts/animation.js"></script>
+</body>
+</html>

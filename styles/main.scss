@@ -54,7 +54,6 @@ body {
 	background-image: url(/images/sikola-dilao.png);
 	background-size: cover;
 	height: 100%;
-	margin-top: -71px;
 	padding: 0;
 
 	.heroes {
@@ -430,6 +429,48 @@ footer {
 
 			.col-12 {
 				margin-top: 50px;
+			}
+		}
+	}
+}
+
+.organisasi {
+	margin-top: 70px;
+
+	.container {
+		margin-top: 100px;
+		margin-bottom: 100px - 70px;
+	}
+
+	.card {
+		border-radius: 25px;
+		padding: 32px;
+		background-color: $color-blue;
+		box-shadow: 2 2px 4px rgba(0,0,0,.5);
+
+		
+		.card-body {
+			min-height: 310px;
+
+			.logo-devisi {
+				margin: auto;
+				padding: 20px;
+				position: relative;
+				width: 150px;
+				height: 150px;
+				background-color: $color-white;
+				border-radius: 25px;
+				margin-bottom: 16px;
+			}
+
+			.card-title {
+				font-size: 16pt;
+				font-weight: 600;
+				color: $color-white;
+			}
+
+			p {
+				color: $color-white;
 			}
 		}
 	}
